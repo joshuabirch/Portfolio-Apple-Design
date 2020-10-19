@@ -62,41 +62,69 @@ src: local('SF UI Display Black'), url('sf-ui-display-black-58646a6b80d5a.woff')
 }
 
 body {
-    color: #212529;
+    background-color: #000;
 }
 
 a {
     text-decoration: none!important;
 }
 
+h1, h2, h3, h4, h5 {
+    font-family: SF UI Display Bold;
+}
+
+p, a, span {
+    font-family: SF UI Display Light;
+}
+
+button, footer {
+    font-family: SF UI Display Medium;
+}
+
 .site-header {
-    background-color: rgba(0,0,0,.85);
+    background-color: rgba(0,0,0, .85);
     backdrop-filter: saturate(180%) blur(20px);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
 }
 
 .site-header a {
-    color: #999;
+    color: #fff;
     transition: ease-in-out color .15s;
+    font-family: SF UI Display Medium;
 }
 
 .site-header a:hover {
-    color: #fff;
+    color: #888;
 }
 
 #jumbo-header {
     font-family: SF UI Display Bold;
 }
 
+.jumbotron {
+    background-color: #000;
+}
+
 .jumbotron > .container > p {
     font-family: SF UI Display Thin;
+    text-transform: capitalize;
 }
 
 
+.sm-icons {
+    text-decoration: none;
+    color: white;
+    margin-left: .5rem;
+    transition: ease-in-out color .15s;
+}
 
+.sm-icons:hover {
+    color: #888;
+}
 
-
-
+.card {
+    background-color: #232323;
+}
 
 @media (min-width: 576px) {
 

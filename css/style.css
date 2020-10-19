@@ -78,6 +78,7 @@ a {
 .site-header a {
     color: #999;
     transition: ease-in-out color .15s;
+    font-family: SF UI Display Medium;
 }
 
 .site-header a:hover {
