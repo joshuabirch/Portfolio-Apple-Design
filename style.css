@@ -111,6 +111,20 @@ button, footer {
 }
 
 
+#wave-emoji {
+    animation-name: wave;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+}
+
+@keyframes wave {
+    from {transform: rotate(-10deg);}
+    to {transform: rotate(10deg);}
+}
+
+
 .sm-icons {
     text-decoration: none;
     color: white;
@@ -127,7 +141,7 @@ button, footer {
 }
 
 @media (min-width: 576px) {
-
+    
 }
 
 @media (min-width: 768px) {
@@ -135,6 +149,7 @@ button, footer {
         padding-top: 6rem;
         padding-bottom: 6rem;
     }
+
 }
 
 @media (min-width: 992px) {
